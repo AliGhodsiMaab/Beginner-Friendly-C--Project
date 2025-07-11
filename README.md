@@ -30,16 +30,6 @@ You can use any of the following IDEs:
 
 ---
 
-## Project Structure Overview
-
-```
-📁 Models/               // Contains model (entity) classes
-📄 SchoolContext.cs      // EF Core DbContext with configurations
-📄 Program.cs            // The entry point of the application
-```
-
----
-
 ## Models & DbContext
 
 - All **entity classes** are placed in the `Models` folder.
