@@ -1,4 +1,4 @@
-```markdown
+
 # Beginner-Friendly C# Project with Entity Framework Core
 
 This is a **learning project** built with C# and **Entity Framework Core**. It is designed for beginners who want to get familiar with core database concepts, data models, and LINQ-based querying using .NET.
