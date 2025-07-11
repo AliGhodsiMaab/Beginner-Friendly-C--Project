@@ -96,5 +96,3 @@ This project is intended to give beginners practical experience with EF Core, da
 Good luck, and enjoy your coding journey! 
 
 ---
-
-```
