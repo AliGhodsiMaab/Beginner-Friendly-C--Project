@@ -101,7 +101,7 @@ These examples will help you understand how EF Core retrieves data in different 
 
 Finally, we demonstrate how **Entity States** work in EF Core via the `EntityState` class.
 
-> ℹWhile this concept may not be frequently used in everyday apps, understanding it helps you better grasp how EF tracks changes to your entities.
+> While this concept may not be frequently used in everyday apps, understanding it helps you better grasp how EF tracks changes to your entities.
 
 ---
 
