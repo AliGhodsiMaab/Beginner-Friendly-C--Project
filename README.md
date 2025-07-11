@@ -21,6 +21,32 @@ To run this project smoothly, make sure the following tools and components are i
 
 ---
 
+## Initial Setup
+
+After installing all requirements, follow these steps to set up the database:
+
+### Step 1: Create Initial Migration
+
+```bash
+dotnet ef migrations add InitialCreate
+```
+
+You can replace `InitialCreate` with any custom name.
+
+### Step 2: Apply Migration to Create the Database Tables
+
+```bash
+dotnet ef database update
+```
+
+If you're using **SQL Server LocalDB**, your connection string should look like this:
+
+```
+"Server=(localdb)\\mssqllocaldb;Database=MyAppDb;Trusted_Connection=True;"
+```
+
+---
+
 ## IDE Recommendation
 
 You can use any of the following IDEs:
