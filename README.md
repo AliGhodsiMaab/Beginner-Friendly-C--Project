@@ -42,7 +42,7 @@ dotnet ef database update
 If you're using **SQL Server LocalDB**, your connection string should look like this:
 
 ```
-"Server=(localdb)\\mssqllocaldb;Database=MyAppDb;Trusted_Connection=True;"
+"Server=.;Database=MyDb;Trusted_Connection=True;Encrypt=False;"
 ```
 
 ---
